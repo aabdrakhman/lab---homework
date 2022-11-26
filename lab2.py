@@ -49,7 +49,7 @@ def power(a: float, n: int) -> float:
     return a**n
 
 a = input().split()
-print(double_power(float(a[0]), int(a[1])))
+print(power(float(a[0]), int(a[1])))
 
 #7
 def election(x: int, y: int, z: int)->int:
