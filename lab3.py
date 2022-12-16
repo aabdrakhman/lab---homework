@@ -25,7 +25,7 @@ class BankAccount:
         self.cash -= sum
 
 
-    def get_cash(self):
+    def get_cash(self) -> str:
         return f'{self.cash} {self.wallet_type.value}'
 
 
