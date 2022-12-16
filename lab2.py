@@ -1,3 +1,4 @@
+'''
 #1
 a = int(input())
 b = int(input())
@@ -60,7 +61,7 @@ def election(x: int, y: int, z: int)->int:
             return 1
 
 a = input().split()
-print(election(int(a[0]), int(a[1]), int(a[2])))
+print(election(int(a[0]), int(a[1]), int(a[2])))'''
 
 #8
 
